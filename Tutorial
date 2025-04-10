@@ -8,3 +8,5 @@ Q- Why do we use spark?
 1)In Memory Computation - we can use memory that spark has to process all the data.
 2)Lazy evaluation - Whenever we will perform a transformation it will not be immediately execute those transformations.It will create a logical plan and it will evaluate 
 all those transformations, once we hit or trigger any actions.
+3)Fault Tolerance- Ability to trace back all the transformations by this way it provides fault tolerance.
+5)Partioning-Partioning our data distributes the data into cluster of machine
