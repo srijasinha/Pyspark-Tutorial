@@ -10,3 +10,7 @@ Q- Why do we use spark?
 all those transformations, once we hit or trigger any actions.
 3)Fault Tolerance- Ability to trace back all the transformations by this way it provides fault tolerance.
 5)Partioning-Partioning our data distributes the data into cluster of machine
+
+***  Herachry that spark follows to execute job ***
+Job ->Stage ->Task 
+Pyspark writes the code in - Scala, Python,R,SQL
