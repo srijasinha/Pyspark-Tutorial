@@ -1,1 +1,10 @@
-
+Spark - 1)Spark is distributed computing engine.Its ddistributes our data to process.
+EX- We have 1 GB of data and we need to process it.So we have multiple machines and we need to connect together, and we call it as cluster.
+spark architecture -
+Node/computer [Driver program)(spark context)->cluster manager->worker Node(2)
+Driver program (Master) will break the code into smalller tasks.It will send the information to our cluster manager.Cluster Manager will create the worker Nodes(Slaves) bases on information 
+and that worker nodes will actually process our data.This is called master slave architecture.
+Q- Why do we use spark?
+1)In Memory Computation - we can use memory that spark has to process all the data.
+2)Lazy evaluation - Whenever we will perform a transformation it will not be immediately execute those transformations.It will create a logical plan and it will evaluate 
+all those transformations, once we hit or trigger any actions.
